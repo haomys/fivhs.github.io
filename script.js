@@ -46,7 +46,7 @@ L.MarkerClusterGroup.include({
 });
 
 function init() {
-    map = L.map('map').setView([59.92, 10.75], 13);
+    map = L.map('map').setView([58.97, 5.77], 13);
     L.tileLayer(
 	'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
 	{
