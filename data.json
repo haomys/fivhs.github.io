@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "data",
+"features": [
+{ "type": "Feature", "properties": { "name": "Bellies", "category": "food", "website": "http://bellies.no/", "address": "Støperigata 6", "city": "4014 Stavanger" }, "geometry": { "type": "Point", "coordinates": [ 5.751985019646814, 58.971328119868637 ] } }
+]
+}
