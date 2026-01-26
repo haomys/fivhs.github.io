@@ -48,7 +48,7 @@ L.MarkerClusterGroup.include({
 function init() {
     map = L.map('map').setView([59.92, 10.75], 13);
     L.tileLayer(
-	'https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+	'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
 	{
 	    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, ' +
 		'&copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>, ' +
