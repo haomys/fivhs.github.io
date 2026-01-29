@@ -22,7 +22,7 @@
       "type": "Feature",
       "properties": {
         "name": "Verkstedet Sølvberget",
-        "category": "tools",
+        "category": "food",
         "website": "https://www.solvberget.no/artikler/verkstedet/",
         "address": "Sølvberggata 2",
         "city": "4002 Stavanger"
@@ -35,8 +35,5 @@
         ]
       }
     }
-
-
-    
   ]
 }
