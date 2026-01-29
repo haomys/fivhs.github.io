@@ -17,6 +17,23 @@
           58.971328119868637
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Verkstedet Sølvberget",
+        "category": "tools",
+        "website": "https://www.solvberget.no/artikler/verkstedet/",
+        "address": "Sølvberggata 2",
+        "city": "4002 Stavanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.733383323176921,
+          58.97131516527252
+        ]
+      }
     }
 
 
