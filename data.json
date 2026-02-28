@@ -34,6 +34,23 @@
           58.97131516527252
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paa Hjul",
+        "category": "bike",
+        "website": "https://rogaland.paahjul.no/",
+        "address": "Haakon VII`s gate 9",
+        "city": "4005 Stavanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.729666303205533,
+          58.969434869408644
+        ]
+      }
     }
   ]
 }
