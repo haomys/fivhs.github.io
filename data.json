@@ -1,56 +1,90 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bellies",
-        "category": "food",
-        "website": "http://bellies.no/",
-        "address": "Støperigata 6",
-        "city": "4014 Stavanger"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.751985019646814,
-          58.971328119868637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Verkstedet Sølvberget",
-        "category": "tools",
-        "website": "https://www.solvberget.no/artikler/verkstedet/",
-        "address": "Sølvberggata 2",
-        "city": "4002 Stavanger"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.733383323176921,
-          58.97131516527252
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Paa Hjul",
-        "category": "bike",
-        "website": "https://rogaland.paahjul.no/",
-        "address": "Haakon VII`s gate 9",
-        "city": "4005 Stavanger"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.729666303205533,
-          58.969434869408644
-        ]
-      }
-    }
-  ]
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bellies",
+    "category": "food",
+    "website": "http://bellies.no/",
+    "address": "Støperigata 6",
+    "city": "4014 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.751985019646814,
+     58.97132811986864
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Verkstedet Sølvberget",
+    "category": "tools",
+    "website": "https://www.solvberget.no/artikler/verkstedet/",
+    "address": "Sølvberggata 2",
+    "city": "4002 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.733383323176921,
+     58.97131516527252
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Paa Hjul",
+    "category": "bike",
+    "website": "https://rogaland.paahjul.no/",
+    "address": "Haakon VII`s gate 9",
+    "city": "4005 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.729666303205533,
+     58.96943486940864
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Happy Bike Sykkel & Verksted",
+    "category": "bike",
+    "website": "http://www.happybike.no/",
+    "address": "Haugåsstubben 10",
+    "city": "4016 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.72602612883596,
+     58.945446630976406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bernina Sysenter",
+    "category": "clothes",
+    "website": "https://www.berninasysenter.no/",
+    "address": "Bakkegata 12",
+    "city": "4006 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.733018941852102,
+     58.97232804215378
+    ]
+   }
+  }
+ ]
 }
