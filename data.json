@@ -85,6 +85,57 @@
      58.97232804215378
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "ReTuren",
+    "category": "clothes",
+    "website": "https://www.dnt.no/om-dnt/dnts-arbeid/barekraft-i-dnt/returen-syverksted/Stavanger/",
+    "address": "Olav V s gate 18",
+    "city": "4005 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.7318880188661065,
+     58.96606994999416
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Byens Skomaker",
+    "category": "clothes",
+    "website": "https://www.byensskomaker.no/",
+    "address": "Søregata 16",
+    "city": "4006 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.734179544483626,
+     58.97106837461529
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Svithun Husflidslag",
+    "category": "tools",
+    "website": "https://husflid.no/lag/rogaland-husflidslag/svithun-husflidslag/",
+    "address": "Nedre Lagårdsvei 2",
+    "city": "4010 Stavanger"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.739539665247689,
+     58.96032628657652
+    ]
+   }
   }
  ]
 }
