@@ -46,19 +46,25 @@ L.MarkerClusterGroup.include({
 });
 
 function init() {
-    map = L.map('map', { tap: false, maxZoom: 20, minZoom: 7}).setView([58.96, 5.71], 13);
-  
-	const maplibreLayer = L.maplibreGL({
+    map = L.map('map', { tap: false, maxZoom: 20, minZoom: 7}).setView([69.65, 18.94], 13);
+    
+    const maplibreLayer = L.maplibreGL({
         style: 'https://tiles.openfreemap.org/styles/liberty',
         attribution:
             '© OpenStreetMap contributors, tiles by OpenFreeMap, made by Pierre Beauguitte, adapted by Martin Haug',
         maxZoom: 20,
         minZoom: 7,
-	}).addTo(map);
-   
-	map.setMaxBounds(L.latLngBounds(L.latLng(59, 5),
-				    L.latLng(58.5, 6)));
-    loadPlaces();
+		//pane: 'tilePane' //  keep GL below markers
+    }).addTo(map);
+    
+    map.setMaxBounds(
+        L.latLngBounds(
+            L.latLng(68.2500, 15.9000),
+            L.latLng(70.1500, 24.1000)
+        )
+    );
+    
+	loadPlaces();
 }
 
 function makeClusterIcon(type) {
