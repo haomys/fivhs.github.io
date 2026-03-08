@@ -46,25 +46,20 @@ L.MarkerClusterGroup.include({
 });
 
 function init() {
-    map = L.map('map', { tap: false, maxZoom: 20, minZoom: 7}).setView([69.65, 18.94], 13);
-    
-    const maplibreLayer = L.maplibreGL({
-        style: 'https://tiles.openfreemap.org/styles/liberty',
-        attribution:
-            '© OpenStreetMap contributors, tiles by OpenFreeMap, made by Pierre Beauguitte, adapted by Martin Haug',
-        maxZoom: 20,
-        minZoom: 7,
-		//pane: 'tilePane' //  keep GL below markers
-    }).addTo(map);
-    
-    map.setMaxBounds(
-        L.latLngBounds(
-            L.latLng(68.2500, 15.9000),
-            L.latLng(70.1500, 24.1000)
-        )
-    );
-    
-	loadPlaces();
+    map = L.map('map').setView([58.96, 5.71], 13);
+    L.tileLayer(
+	'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+	{
+	    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, ' +
+		'&copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>, ' +
+		'&copy; <a href="http://openstreetmap.org">OpenStreetMap</a>, ' +
+		'made by <a href="mailto:pierrebeauguitte@pm.me">Pierre Beauguitte</a>',
+	    maxZoom: 20,
+	    minZoom: 11,
+	}).addTo(map);
+    map.setMaxBounds(L.latLngBounds(L.latLng(59, 5),
+				    L.latLng(58.5, 6)));
+    loadPlaces();
 }
 
 function makeClusterIcon(type) {
