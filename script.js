@@ -46,7 +46,7 @@ L.MarkerClusterGroup.include({
 });
 
 function init() {
-    map = L.map('map').setView([58.96, 5.71], 13);
+    map = L.map('map', { tap: false, maxZoom: 20, minZoom: 7}).setView([58.96, 5.71], 13);
   
 	const maplibreLayer = L.maplibreGL({
         style: 'https://tiles.openfreemap.org/styles/liberty',
